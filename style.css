@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    /* ini block */
+    width: 100%;
+    background-color: rgb(21, 21, 21);
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
+
+.header__nav {
+    /* ini element */
+    width: 90%;
+    margin: 0px auto;
+}
+
+.header__link {
+    /* ini element */
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    margin: 3px;
+}
+
+.header__link--bold {
+    /* ini Modifier */
+    font-weight: 600;
+}
+
+.btn-orange {
+    /* ini Button Untuk Kalau Ingin Warnanya Orange */
+    display: inline-block;
+    background-color: rgba(255, 173, 0, 0.8);
+    color: black;
+    padding: 12px 32px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    background-color: rgb(23, 23, 23);
+}
+
+.left {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 40%;
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0px 4px 8px 0px grey;
+    color: white;
+    padding: 20px 32px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
